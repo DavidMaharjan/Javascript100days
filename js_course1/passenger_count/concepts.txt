@@ -1,0 +1,9 @@
+script tag
+variables
+numbers
+strings
+console.log()
+functions
+The Dom
+innerText
+textContent
