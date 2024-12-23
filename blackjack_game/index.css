@@ -25,5 +25,7 @@ button{
     font-weight: bold;
     border:none;
     border-radius: 2px;
+    display: block;
+    margin:10px auto;
 }
 
