@@ -13,7 +13,18 @@ let cardEl=document.querySelector('#card-el')
 let cards=[firstCard,secondCard]//array -ordered list of items
 
 function getRandomCards(){
-    return 5
+    //generates the random number upto 13
+    let randomNumber= Math.floor(Math.random()*13)+1
+    //A = 1 and J,Q,k=10 condition check
+    if(randomNumber===1){
+        return 11
+    }
+    else if(randomNumber>10){
+        return 10
+    }
+    else {
+        return randomNumber
+    }
 }
 function startGame(){
     renderGame()
@@ -53,8 +64,4 @@ function newCard(){
     renderGame()
     
 }
-// let sentence=["Hello", "my","name","is","David"]
-// let greetingEl=document.getElementById("greetingEl")
-// for (i=0;i<sentence.length;i++){
-//     greetingEl.textContent+=" "+sentence[i]
-// }
+

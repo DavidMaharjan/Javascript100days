@@ -90,22 +90,35 @@ let featuredPosts=[
 //     console.log(cards[i])
 // }
 
-let player1Time =102
-let player2Time=107
+// let player1Time =102
+// let player2Time=107
 
-function getFastestTime(){
-    if (player1Time<player2Time){
-        return player1Time
-    }
-    else {
-        return player2Time
-    }
-}
+// function getFastestTime(){
+//     if (player1Time<player2Time){
+//         return player1Time
+//     }
+//     else {
+//         return player2Time
+//     }
+// }
 // let fastestRaceTime = getFastestTime()
 // console.log(fastestRaceTime)
 
-function gettotalRaceTime(){
-    return player1Time+player2Time
+// function gettotalRaceTime(){
+//     return player1Time+player2Time
+// }
+// let totalRaceTime=gettotalRaceTime()
+// console.log(totalRaceTime)
+
+// let randomNumber =Math.random() *  6 // gives random number 0 to 6
+// let flooredNumber=Math.floor(randomNumber)
+// // generates random numbers from 0 and 1
+// console.log(randomNumber)
+// console.log(flooredNumber+1)// 1 to 6
+
+//roll dice function in arrow style no hoisting
+// if used function rollDice(){} the it is hoisted
+const dice = ()=>{
+    return Math.floor(Math.random()*6)+1
 }
-let totalRaceTime=gettotalRaceTime()
-console.log(totalRaceTime)
+console.log(dice())
