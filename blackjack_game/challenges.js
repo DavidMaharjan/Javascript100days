@@ -118,7 +118,68 @@ let featuredPosts=[
 
 //roll dice function in arrow style no hoisting
 // if used function rollDice(){} the it is hoisted
-const dice = ()=>{
-    return Math.floor(Math.random()*6)+1
+// const dice = ()=>{
+//     return Math.floor(Math.random()*6)+1
+// }
+// console.log(dice())
+
+//logical operartors
+
+// let hasCompletedCourse =true
+// let givesCertificate= false
+
+// if (hasCompletedCourse==true || givesCertificate==true){
+//     generateCertificate()
+// }
+
+// function generateCertificate(){
+//     console.log("Generating Certificate")
+// }
+
+// let hasSolvedChallenge =false
+// let hasHintsLeft=false
+// if (hasSolvedChallenge==hasHintsLeft)
+// {
+//     showSolution()
+// }
+// function showSolution(){
+//     console.log("Showing the solution.....")
+// }
+
+//or statement
+// let likesDocumentaries = true
+// let likesStartups= false 
+// if(likesDocumentaries==true || likesStartups==false){
+//     recommendMovies()
+// }
+// function recommendMovies(){
+//     console.log("Hey, checkout this new flim we think you will like it")
+
+// }
+
+//objects in js
+
+// let course ={
+//     title:"Learn CSS Grid for free",
+//     lessons:16,
+//     creator:"Per Harald Borgen",
+//     length:63,
+//     level:2,
+//     isFree:true,
+//     tags:['html','css']
+// }
+// console.log(course.tags)
+
+let castle ={
+    name:"MakwanpurGadi",
+    location:"Makwanpur",
+    price:32,
+    isAvailable:true,
+    featues:['Golfcourse','Swimmingpool','Fishpond']
 }
-console.log(dice())
+console.log(castle.featues)
+console.log(castle.name)
+
+
+
+
