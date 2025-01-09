@@ -170,16 +170,92 @@ let featuredPosts=[
 // }
 // console.log(course.tags)
 
-let castle ={
-    name:"MakwanpurGadi",
-    location:"Makwanpur",
-    price:32,
-    isAvailable:true,
-    featues:['Golfcourse','Swimmingpool','Fishpond']
-}
-console.log(castle.featues)
-console.log(castle.name)
+// let castle ={
+//     name:"MakwanpurGadi",
+//     location:"Makwanpur",
+//     price:32,
+//     isAvailable:true,
+//     featues:['Golfcourse','Swimmingpool','Fishpond']
+// }
+// console.log(castle.featues)
+// console.log(castle.name)
+
+//practice questions
+
+//question1
+
+// let person = {
+//     name:"David",
+//     age:"22",
+//     country:"Nepal"
+// }
+// function logData(){
+//     console.log(person.name+" is "+person.age+" years old and lives in "+person.country)
+// }
+// logData()
 
 
+//question 2
 
+// let age =67
 
+// if(age<6){
+//     console.log("free")
+// }
+// else if(age<=17){
+//     console.log("child discount")
+// }
+// else if(age<=26){
+//     console.log("student discount")
+// }
+// else if(age<=66){
+//     console.log("full price")
+// }
+// else{
+//     console.log("senoir citizen discount")
+// }
+
+//question 3 loops
+
+// let countries =["India","China","USA","Indonesia","Pakistan"]
+// console.log("The 5 largest countries in the world:")
+// for (i=0;i<countries.length;i++){
+//     console.log("- "+countries[i])
+// }
+
+// let largeCountries =["Tuvalu","India","USA","Indonesia","Monaco"]
+// largeCountries.pop()
+// largeCountries.shift() // removes array element at the beginning
+// console.log(largeCountries)
+// largeCountries.unshift("China")//adds array element at the beginning
+// largeCountries.push("Pakistan")
+// console.log(largeCountries)
+// //removes country at index 2 and 1 is number of countries
+// //splice(index,noOfElementsToRemove)
+// largeCountries.splice(2,1)
+// console.log(largeCountries)
+
+// let dayOfMonth = 13
+// let weekday ="Tuesday"
+// if (dayOfMonth==13 && weekday=="Friday"){
+//     console.log("🎃👻🍬🦇💀🧡")
+// }
+
+// let hands =["rocks","paper","scissors"]
+
+// function randomHand (){
+//     return hands[Math.floor(Math.random()*3)]
+// }
+
+// console.log(randomHand())
+
+// function sortFruits(){
+//     for(i=0;i<fruits.length;i++){
+//         if(fruits[i]==="apple"){
+//             appleShelf.textContent+=fruits[i]
+//         }
+//         else{
+//             orangeShelf.textcontent+=fruits[i]
+//         }
+//     }
+// }

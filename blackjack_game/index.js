@@ -1,6 +1,7 @@
 let player ={
     name:"David",
-    chips:145
+    chips:145,
+    
 }
 let sum = 0
 let hasBlackJack=false
@@ -14,6 +15,8 @@ let cardEl=document.querySelector('#card-el')
 let cards=[]//array -ordered list of items
 
 playerEL=document.getElementById("player-el")
+
+// Render the player's name and chips in playerEl
 playerEL.textContent=player.name + " : "+"$ "+ player.chips
 
 function getRandomCards(){
