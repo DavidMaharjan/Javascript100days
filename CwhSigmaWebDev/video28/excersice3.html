@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXcercise 3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .maindiv {
+        background-color: lightgrey;
+        height: 90vw;
+        display: flex;
+        justify-content: center;
+      }
+      .card {
+        background-color: white;
+        height: 500px;
+        width: 300px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;  */
+        margin: 15px;
+        padding: 15px;
+      }
+
+      .image {
+        height: 240px;
+        width: 100%;
+        border-radius: 28px;
+       margin-bottom: 15px;
+      }
+      .hastags button {
+        padding: 5px;
+        border-radius: 10px;
+        margin: 5px;
+        background-color: white;
+        color: gray;
+        border: 1px solid lightgray;
+      }
+      h2{
+        padding-left: 10px;
+      }
+      .desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .desc button {
+
+        margin-top: 10px;
+        text-align: left;
+        padding: 10px;
+        color: blue;
+
+        border-radius: 10px;
+        border:2px solid lightgrey;
+
+      }
+     
+      p{
+        padding: 10px;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="card">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/011/236/240/non_2x/on-a-lake-in-sweden-in-smalland-water-lily-field-blue-water-sunny-sky-forests-photo.jpg"
+          alt="Image of lake"
+          class="image"
+        />
+        <div class="hastags">
+          <button>Nature</button>
+          <button>Lake</button>
+        </div>
+        <div class="desc">
+          <h2>Lake Betal</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, qui
+            blanditiis. Blanditiis magni dicta laborum, exercitationem ab fugiat
+            nostrum id minus amet perferendis, repellendus nam?
+          </p>
+          <button>Read more</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

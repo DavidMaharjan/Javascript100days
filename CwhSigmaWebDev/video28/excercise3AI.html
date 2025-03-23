@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXcercise3 Chatgpt improvement</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Ensures padding and borders don't affect element width/height */
+      }
+      body {
+        font-family: Arial, sans-serif; /* Adds a clean font for the page */
+        background-color: #f4f4f4;
+        padding: 20px; /* Adds padding around the content */
+      }
+
+      .maindiv {
+        background-color: lightgrey;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0; /* Adds spacing from top and bottom */
+      }
+
+      .card {
+        background-color: white;
+        width: 300px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Ensures the content is spaced evenly */
+        padding: 20px;
+        position: relative; /* Needed for absolute positioning within */
+      }
+
+      .image {
+        height: 240px;
+        width: 100%;
+        border-radius: 28px;
+        object-fit: cover; /* Ensures image covers the area nicely */
+        margin-bottom: 15px;
+      }
+
+      .hastags {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+
+      .hastags button {
+        padding: 5px;
+        border-radius: 10px;
+        margin: 5px;
+        background-color: white;
+        color: gray;
+        border: 1px solid lightgray;
+        cursor: pointer;
+      }
+
+      .desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+      }
+
+      h2 {
+        padding-left: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: gray;
+        margin-bottom: 20px;
+      }
+
+      .desc button {
+        padding: 10px;
+        color: blue;
+        background-color: darkgrey;
+        border-radius: 10px;
+        border: 2px solid lightgrey;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      /* Hover Effects */
+      .hastags button:hover {
+        background-color: #f0f0f0;
+      }
+
+      .desc button:hover {
+        background-color: #4682b4;
+        color: white;
+      }
+
+      /* Responsive Layout */
+      @media (max-width: 768px) {
+        .card {
+          width: 80%;
+          height: auto;
+        }
+        .image {
+          height: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="card">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/011/236/240/non_2x/on-a-lake-in-sweden-in-smalland-water-lily-field-blue-water-sunny-sky-forests-photo.jpg"
+          alt="Image of lake"
+          class="image"
+        />
+        <div class="hastags">
+          <button>Nature</button>
+          <button>Lake</button>
+        </div>
+        <div class="desc">
+          <h2>Lake Betal</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, qui
+            blanditiis. Blanditiis magni dicta laborum, exercitationem ab fugiat
+            nostrum id minus amet perferendis, repellendus nam?
+          </p>
+          <button>Read more</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
