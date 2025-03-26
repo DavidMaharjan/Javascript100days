@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multicolored nav bar</title>
+    <style>
+        @media only screen and (max-width:600px){
+            .nav{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        :root{
+            --homecol: red;
+            --aboutcol:blue;
+            --contactcol:green;
+            --navcolor:grey;
+        }
+        nav{
+            background-color: var(--navcolor);
+            height: 40px;
+            width: 100vw;
+            display: flex;
+        }
+        .home{
+            height: 40px;
+            width: 50px;
+            background-color: var(--homecol);
+        }
+        .about{
+            height: 40px;
+            width: 50px;
+            background-color: var(--aboutcol);
+        }
+        .contact{
+            height: 40px;
+            width: 50px;
+            background-color: var(--contactcol);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="home">Home</div>
+        <div class="about">About</div>
+        <div class="contact">Contact</div>
+    </nav>
+</body>
+</html>
