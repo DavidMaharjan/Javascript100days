@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* .box:first-child {
+        background-color: red;
+      }
+      .box:first-line{
+        color: yellow;
+      }
+      [data-color=primary]{
+        border:2px solid green;
+      } */
+      
+      .boxes::before{
+        content:"David is learning web dev";
+      }
+      .boxes:after{
+        content:"Goodbye everybody";
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box">Hey I am a box</div>
+      <div data-color=primary class="box">
+        Hey I am a box Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Voluptatem, est dolorum sed a facilis itaque, quibusdam minus ipsa
+        eligendi tempore saepe rem inventore veniam cupiditate omnis
+        reprehenderit numquam aliquam voluptates laborum! Eveniet minima
+        voluptatibus, provident esse tempore officia porro explicabo adipisci
+        eius molestiae, aut ut aliquam necessitatibus! Similique dolore
+        asperiores tenetur fugit aperiam numquam unde dolorem neque minus illum
+        commodi ipsum autem enim dolores debitis nulla, beatae cupiditate animi
+        vero odit nemo. Consequatur magni suscipit sunt eaque deleniti ipsa?
+        Quos fugiat velit eos sequi beatae pariatur, molestias laudantium alias
+        vero aspernatur, voluptatum nulla dolore atque recusandae architecto.
+        Dicta exercitationem soluta incidunt. Voluptate non, excepturi earum
+        inventore consectetur delectus eaque vel provident eos ad vitae aliquam
+        fuga veritatis molestias adipisci asperiores.
+      </div>
+      <div class="box">Hey I am a box</div>
+      <div class="box">Hey I am a box</div>
+    </div>
+  </body>
+</html>

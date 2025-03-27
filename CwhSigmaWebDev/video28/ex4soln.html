@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multicolored website</title>
+    <style>
+        @media only screen and (max-width:600px){
+            .nav{
+                background-color: red;
+            }
+        }
+        :root{
+            --primary-color:rgb(195, 21, 230);
+            --text-color:white;
+            --secondary-color: rgb(127, 192, 84);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+    
+        }
+        body{
+            background-color: var(--secondary-color);
+
+        }
+        nav{
+            background-color: var(--primary-color);
+            padding: 12px;
+        }
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+            color: var(--text-color);
+        }
+        
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

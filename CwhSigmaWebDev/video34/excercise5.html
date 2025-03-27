@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise 5</title>
+    <style>
+        body{
+            background-color: aqua;
+            margin: 0;
+           
+        }
+        
+        nav{
+            top:0;
+            display: flex;
+            height: 40px;
+            background-color: palevioletred;
+            position: sticky;
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            margin:15px;
+            height:900px;
+            /* background-color: aliceblue; */
+        }
+        .base{
+            height: 400px;
+            background-color: green;
+            display: flex;
+            padding:15px;
+            justify-content: center;
+
+            
+        }
+        .small{
+            height:300px;
+            width:30%;
+            margin:40px;
+        }
+        .box1{
+            background-color: pink;
+        }
+        .box2{
+            background-color: purple;
+        }
+        .message{
+            background-color: bisque;
+            height:70px;
+            margin:10px;
+            padding:10px;
+            text-align: center;
+            font-size: larger;
+            border:2px solid black;
+            border-radius: 24px;
+            line-height: 70px;
+        }
+        .fixed-div{
+            height:30px;
+            width:30px;
+            background-color: blue;
+            border-radius: 50%;
+            position:fixed;
+            top:60vw;
+            left:90vw;
+            
+        }
+        footer{
+            height: 40px;
+            background-color: gray;
+            text-align: center;
+            font-size: larger;
+            padding: 10px;
+            line-height: 40px;
+
+        }
+    </style>
+</head>
+<body>
+   
+        <nav>I am a navbar</nav>
+ 
+    <main>
+        <div class="base">
+            <div class="small box1"></div>
+            <div class="small box2"></div>
+        </div>
+        <div class="message">Welcome to Sigma Web Development Express</div>    
+        <div class="fixed-div"></div>
+    </main>
+   <footer>
+    I am a footer
+   </footer>
+</body>
+</html>
