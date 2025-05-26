@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Documentation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header id="head">
+    <h1 >Documentation of Python</h1>
+  </header>
+
+  <nav id="navbar">
+    <header><h2>Navigation</h2></header>
+    <a class="nav-link" href="#Introduction_to_python">Introduction to python</a>
+    <a class="nav-link" href="#Getting_Started">Getting Started</a>
+    <a class="nav-link" href="#Variables">Variables</a>
+    <a class="nav-link" href="#Conditionals">Conditionals</a>
+    <a class="nav-link" href="#Loops">Loops</a>
+    <a class="nav-link" href="#functions">functions</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction_to_python">
+      <header><h1>Introduction to python</h1></header>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+    </section>
+
+    <section class="main-section" id="Getting_Started">
+      <header><h1>Getting Started</h1></header>
+      <h3>Install python</h3>
+      <p>To check if you have python installed...</p>
+      <code>C:\Users\Your Name>python --version</code>
+      <h3>Python QuickStart</h3>
+      <p>Python is an interpreted language...</p>
+      <code>print("Hello, World!")</code>
+      <p>Open your command line and run the file...</p>
+      <code>Hello, World!</code>
+    </section>
+
+    <section class="main-section" id="Variables">
+      <header><h1>Variables</h1></header>
+      <p>Following are included in variables</p>
+      <ul>
+        <li>Python Variables</li>
+        <li>Variable Names</li>
+        <li>Assign Multiple Values</li>
+        <li>Global Variables</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Conditionals">
+      <header><h1>Conditionals</h1></header>
+      <p>Python supports logical conditions:</p>
+      <ol>
+        <li>Equals: a == b</li>
+        <li>Not Equals: a != b</li>
+        <li>Less than: a &lt; b</li>
+        <li>Less than or equal: a &lt;= b</li>
+        <li>Greater than: a &gt; b</li>
+        <li>Greater than or equal: a &gt;= b</li>
+      </ol>
+      <p><b>if</b> statement example:</p>
+      <code>
+        <pre>
+a = 33
+b = 200
+if b &gt; a:
+    print("b is greater than a")
+        </pre>
+      </code>
+      <p><b>elif</b> condition:</p>
+      <code>
+        <pre>
+a = 33
+b = 33
+if b &gt; a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+        </pre>
+      </code>
+      <p><b>else</b> condition:</p>
+      <code>
+        <pre>
+a = 200
+b = 33
+if b &gt; a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+else:
+    print("a is greater than b")
+        </pre>
+      </code>
+    </section>
+
+    <section class="main-section" id="Loops">
+      <header><h1>Loops</h1></header>
+      <p>In Python, there are two types of loops:</p>
+      <ol>
+        <li>for loop</li>
+        <li>while loop</li>
+      </ol>
+      <h3>for loop</h3>
+      <p>Used for iterating over a sequence:</p>
+      <code>
+        <pre>
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+        </pre>
+      </code>
+      <h3>while loop</h3>
+      <p>Executes a block while a condition is true:</p>
+      <code>
+        <pre>
+i = 1
+while i &lt; 6:
+    print(i)
+    i += 1
+        </pre>
+      </code>
+    </section>
+
+    <section class="main-section" id="functions">
+      <header><h1>functions</h1></header>
+      <p>A function is a block of code called by name:</p>
+      <code>
+        <pre>
+def my_function():
+    print("Hello from a function")
+
+my_function()
+        </pre>
+      </code>
+    </section>
+  </main>
+</body>
+
+</html>
